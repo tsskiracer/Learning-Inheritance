@@ -1,6 +1,7 @@
 
 public abstract class rTriangle extends Triangle
 	{
+	public abstract double findHypotenuse();
 		public rTriangle(int b, int h)
 		{
 			super(b, h);
